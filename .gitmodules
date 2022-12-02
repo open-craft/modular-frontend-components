@@ -1,13 +1,23 @@
-[submodule "learning"]
+[submodule "platform"]
+	path = libs/frontend-platform
+	url = git@github.com:open-craft/frontend-platform.git
+	branch = kshitij/modular-mfe
+
+[submodule "apps/learning"]
 	path = apps/learning
 	url = git@github.com:open-craft/frontend-app-learning.git
 	branch = kshitij/modular-mfe
 
-[submodule "build"]
-	path = libs/frontend-build
-	url = git@github.com:openedx/frontend-build.git
-
-[submodule "platform"]
+[submodule "libs/frontend-platform"]
 	path = libs/frontend-platform
 	url = git@github.com:open-craft/frontend-platform.git
+	branch = kshitij/modular-mfe
+
+[submodule "apps/account"]
+	path = apps/account
+	url = git@github.com:open-craft/frontend-app-account.git
+	branch = kshitij/modular-mfe
+[submodule "apps/profile"]
+	path = apps/profile
+	url = git@github.com:open-craft/frontend-app-profile.git
 	branch = kshitij/modular-mfe
