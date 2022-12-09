@@ -1,13 +1,27 @@
-[submodule "learning"]
+[submodule "apps/learning"]
 	path = apps/learning
 	url = git@github.com:open-craft/frontend-app-learning.git
 	branch = kshitij/modular-mfe
-
-[submodule "build"]
+[submodule "libs/build"]
 	path = libs/frontend-build
 	url = git@github.com:openedx/frontend-build.git
-
-[submodule "platform"]
+[submodule "libs/platform"]
 	path = libs/frontend-platform
 	url = git@github.com:open-craft/frontend-platform.git
 	branch = kshitij/modular-mfe
+[submodule "libs/frontend-build"]
+	path = libs/frontend-build
+	url = git@github.com:open-craft/frontend-build.git
+	branch = kshitij/modular-mfe
+[submodule "components/header"]
+	path = components/header
+	url = git@github.com:openedx/frontend-component-header.git
+[submodule "components/footer"]
+	path = components/footer
+	url = git@github.com:openedx/frontend-component-footer.git
+[submodule "libs/paragon"]
+	path = libs/paragon
+	url = git@github.com:openedx/paragon.git
+[submodule "libs/special-exams"]
+	path = libs/special-exams
+	url = git@github.com:openedx/frontend-lib-special-exams.git
